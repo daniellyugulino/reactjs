@@ -1,0 +1,19 @@
+img{
+    width: 200px;
+    height: 100px;
+}
+
+.entrada{
+    width: 300px;
+    height: 30px;
+    border-radius: 10px;
+}
+
+.btnEnviar{
+    border-color:#46a7f5;
+    background:linear-gradient(to bottom, #86c6f8 5%, #46a7f5 100%);
+    color:#fff;
+    text-shadow:0px 1px 0px #528009;
+    width: 70px;
+    height: 40px;
+}
