@@ -20,11 +20,16 @@ export default class Resultado extends Component{
         return(
             <div>
                 <h1>Resultado da Busca</h1>
-                {starwars.map(sw => {
+                {console.log(starwars)}
+                {starwars.map(sw => (
                     <li>
-                        {sw.object.name}
+                        {sw.results.name}
+                        {sw.results.hair_color}
+                        {sw.results.eye_color}
+                        {sw.results.gender}
+                        
                     </li>
-                })}
+                ))}
             </div>
         )
     }

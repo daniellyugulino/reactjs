@@ -1,7 +1,7 @@
-import Axios from 'axios'
+import axios from 'axios'
 
-const api = Axios.create({
-    baseURL: 'https://swapi.dev/api/people/?search=Luke'
+const api = axios.create({
+    baseURL: 'https://swapi.dev/api/people/?search='
 })
 
-export default api
+export default api;
